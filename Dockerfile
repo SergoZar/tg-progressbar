@@ -1,7 +1,7 @@
-EXPOSE 80
+
 # Використовуємо офіційний образ Python
 FROM python:3.10
-
+EXPOSE 80
 # Додаємо потрібний код у контейнер
 COPY . .
 WORKDIR .
