@@ -7,7 +7,7 @@ COPY . .
 WORKDIR .
 
 # Встановлюємо залежності
-RUN pip install --no-cache-dir aiogram pyrogram
+RUN pip install aiogram pyrogram
 
 # Вказуємо команду для запуску
 CMD ["ls", "."]
