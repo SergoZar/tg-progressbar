@@ -1,4 +1,4 @@
-EXPOSE 8080
+EXPOSE 80
 # Використовуємо офіційний образ Python
 FROM python:3.10
 
