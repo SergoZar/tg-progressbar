@@ -10,4 +10,5 @@ WORKDIR .
 RUN pip install --no-cache-dir aiogram pyrogram
 
 # Вказуємо команду для запуску
+CMD ["ls", "."]
 CMD ["python", "usrebot.py"]
