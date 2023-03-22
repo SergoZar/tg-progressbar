@@ -1,5 +1,12 @@
 #! /usr/bin/env python3
 # -*- coding: utf-8 -*-
+
+import requests
+
+r = requests.get("https:ddg.gg")
+print(r.text)
+
+'''
 import logging
 from pyrogram import Client, filters
 from pyrogram.errors import PeerIdInvalid
@@ -27,3 +34,4 @@ def welcome(app, message):
         pass
 
 app.run()
+'''
