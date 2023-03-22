@@ -3,7 +3,7 @@
 
 import requests
 
-r = requests.get("https:ddg.gg")
+r = requests.get("http://ddg.gg")
 print(r.text)
 
 '''
