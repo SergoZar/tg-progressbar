@@ -7,7 +7,7 @@ from pyrogram.errors import PeerIdInvalid
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                      level=logging.INFO)
 
-app = Client("my_account", api_id = 1, api_hash = "")
+app = Client("my_account", api_id = 1, api_hash = "hash")
 
 @app.on_message(filters.chat("@me"))
 def welcome(app, message):
